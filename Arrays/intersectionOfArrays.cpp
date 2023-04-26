@@ -1,5 +1,6 @@
 //Here we learn 2 pointer approach
 #include <iostream>
+
 void intersection(int arr1[], int arr2[], int n, int m){
   bool flag = 0;
   int i = 0, j = 0;
