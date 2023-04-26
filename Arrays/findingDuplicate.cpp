@@ -9,7 +9,6 @@ int findDuplicate(int arr[], int n){
   }
   return ans;
 }
-
 int main() {
   int arr[100];
   int n;
