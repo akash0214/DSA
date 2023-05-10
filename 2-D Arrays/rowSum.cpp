@@ -22,8 +22,8 @@ int maxRowSum(int arr[][3], int row, int col){
             rowIndex = i;
         }
     }
-    std::cout<<"The max row sum : "<<maxi<<"\n";
-    std::cout<<"And the index of that row is : ";
+    std::cout<<"The max row sum is : "<<maxi<<"\n";
+    std::cout<<"And the index of the row is : ";
     return rowIndex;
 }
 int main() {
