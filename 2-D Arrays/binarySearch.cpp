@@ -26,6 +26,6 @@ int main() {
     int key;
     std::cout<<"Enter the number to be searched : ";
     std::cin>>key;
-    std::cout<<"\nElement found ? --> "<<binSearch(v, key);
+    std::cout<<"\nElement found ?  "<<binSearch(v, key);
     return 0;
 }
