@@ -1,7 +1,7 @@
 //Wave print : Print a column top to down then next down to top and so on...
 #include <iostream>
 void wavePrint(int arr[][3], int row, int col){
-    std::cout<<"The wave style print of the array is : ";
+    std::cout<<"The wave print of the array is : ";
     for(int i = 0; i < col; i++){
         int j = 0;
         if(i % 2 != 0){
