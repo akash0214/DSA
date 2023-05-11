@@ -19,7 +19,7 @@ void reverse(char arr[]){
     }
 }
 int main() {
-    std::string str = "My name is Akash";
+    std::string str = "Myself Akash Singh";
     std::cout<<"Original string is : "<<str<<"\n";
     char arr[100];
     int i = 0;
