@@ -1,7 +1,7 @@
 #include <iostream>
 
 void bubbleSort(int arr[], int size){
-    bool swapped = false;    //Optimised for no swap in a round
+    bool swapped = false;    //Optimised bubble sort if there is no swap in a round
     for(int i = 0; i<size-1; i++){
         for(int j = 0; j < size-1-i; j++){
             if(arr[j] > arr[j+1]){
@@ -12,7 +12,7 @@ void bubbleSort(int arr[], int size){
             }
         }
         if(!swapped){
-            break;    //No swaps in a round means array got already sorted
+            break;    //No swaps in a round means array already is sorted
         }
     }
 }
