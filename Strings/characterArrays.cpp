@@ -40,7 +40,7 @@ int main() {
     char name[20];
     std::cout<<"Enter the name : ";
     std::cin>>name;//cin stops execution whenever it gets space \t or newline/enter so if we give space in between
-                    //it will take characters just before the space
+                    //it will accept only the characters just before the space
     std::cout<<"\nThe name is : "<<name<<"\n";
     std::cout<<"The length of character array is : "<<getLength(name)<<"\n";
     int length = getLength(name);
