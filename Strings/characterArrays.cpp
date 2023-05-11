@@ -1,5 +1,5 @@
 #include <iostream>
-//After the end character of char array or string '\0' is added to identify that this is the end of it
+//After the end character of char array or string '\0' is added to identify that it is the end of it
 //Compiler will stop as soon as it finds a '\0'(null character)
 void reverse(char ch[], int n){
     int s = 0, e = n-1;
