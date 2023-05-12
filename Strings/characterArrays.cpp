@@ -1,5 +1,5 @@
 #include <iostream>
-//After the end character of char array or string '\0' is added to identify that this is the end of it
+//After the end character of char array or string '\0' is added to identify that it is the end of it
 //Compiler will stop as soon as it finds a '\0'(null character)
 void reverse(char ch[], int n){
     int s = 0, e = n-1;
@@ -40,7 +40,7 @@ int main() {
     char name[20];
     std::cout<<"Enter the name : ";
     std::cin>>name;//cin stops execution whenever it gets space \t or newline/enter so if we give space in between
-                    //it will take characters just before the space
+                    //it will accept only the characters just before the space
     std::cout<<"\nThe name is : "<<name<<"\n";
     std::cout<<"The length of character array is : "<<getLength(name)<<"\n";
     int length = getLength(name);

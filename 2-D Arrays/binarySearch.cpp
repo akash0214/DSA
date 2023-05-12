@@ -24,8 +24,8 @@ bool binSearch(std::vector<std::vector<int>> v, int key){
 int main() {
     std::vector<std::vector<int>> v = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
     int key;
-    std::cout<<"Enter the number that you want to search : ";
+    std::cout<<"Enter the number to be searched : ";
     std::cin>>key;
-    std::cout<<"\nElement found ? --> "<<binSearch(v, key);
+    std::cout<<"\nElement found ?  "<<binSearch(v, key);
     return 0;
 }
