@@ -12,7 +12,7 @@ class Solution {
     if (const auto it = memo.find(s); it != memo.cend())
       return it->second;
 
-    // 1 <= prefix.length() < s.length()
+    // 1<=prefix.length() < s.length()
     for (int i = 1; i < s.length(); ++i) {
       const string& prefix = s.substr(0, i);
       const string& suffix = s.substr(i);
